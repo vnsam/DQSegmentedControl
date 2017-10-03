@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020E95D21F84046300F89DAB /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020E95D11F84046300F89DAB /* Indicator.swift */; };
 		021844BA1F81DD1400456F21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 021844B81F81DD1400456F21 /* Main.storyboard */; };
 		021844BC1F81DD1400456F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 021844BB1F81DD1400456F21 /* Assets.xcassets */; };
 		021844BF1F81DD1400456F21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 021844BD1F81DD1400456F21 /* LaunchScreen.storyboard */; };
 		023E4E3C1F81DF4D000EB18D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023E4E391F81DF4D000EB18D /* AppDelegate.swift */; };
 		023E4E3D1F81DF4D000EB18D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023E4E3B1F81DF4D000EB18D /* ViewController.swift */; };
 		023E4E3F1F81DF80000EB18D /* DQSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023E4E3E1F81DF80000EB18D /* DQSegmentedControl.swift */; };
-		023E4E421F827A2B000EB18D /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023E4E411F827A2B000EB18D /* Indicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		020E95D11F84046300F89DAB /* Indicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
 		021844B11F81DD1400456F21 /* Segment Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Segment Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		021844B91F81DD1400456F21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		021844BB1F81DD1400456F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		023E4E391F81DF4D000EB18D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		023E4E3B1F81DF4D000EB18D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		023E4E3E1F81DF80000EB18D /* DQSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DQSegmentedControl.swift; sourceTree = "<group>"; };
-		023E4E411F827A2B000EB18D /* Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,6 @@
 				023E4E381F81DF4D000EB18D /* Application */,
 				023E4E3A1F81DF4D000EB18D /* Controller */,
 				021844CE1F81DF1300456F21 /* CustomComponents */,
-				023E4E401F8279FB000EB18D /* Model */,
 				021844B81F81DD1400456F21 /* Main.storyboard */,
 				021844BB1F81DD1400456F21 /* Assets.xcassets */,
 				021844BD1F81DD1400456F21 /* LaunchScreen.storyboard */,
@@ -73,6 +72,7 @@
 		021844CE1F81DF1300456F21 /* CustomComponents */ = {
 			isa = PBXGroup;
 			children = (
+				020E95D11F84046300F89DAB /* Indicator.swift */,
 				023E4E3E1F81DF80000EB18D /* DQSegmentedControl.swift */,
 			);
 			path = CustomComponents;
@@ -92,14 +92,6 @@
 				023E4E3B1F81DF4D000EB18D /* ViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		023E4E401F8279FB000EB18D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				023E4E411F827A2B000EB18D /* Indicator.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,7 +169,7 @@
 				023E4E3D1F81DF4D000EB18D /* ViewController.swift in Sources */,
 				023E4E3F1F81DF80000EB18D /* DQSegmentedControl.swift in Sources */,
 				023E4E3C1F81DF4D000EB18D /* AppDelegate.swift in Sources */,
-				023E4E421F827A2B000EB18D /* Indicator.swift in Sources */,
+				020E95D21F84046300F89DAB /* Indicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
